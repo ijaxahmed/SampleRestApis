@@ -11,8 +11,8 @@ import com.sample.rest.api.utilities.Util;
 public class FoursquareResourceConnector {
 
 	private static String API_URL = "https://api.foursquare.com/v2/venues/search";
-	private static String CLIENT_ID = "KFLW5PUSG25GYKSCJZITCZAFO3CQJARQ1KKM0G3WUDA2SYIF";
-	private static String CLIENT_SECRET = "NZ0XYSMNC1TVXTS2URDI43DLX4EESVRXXV50DUFK43ZYUN41";
+	private static String CLIENT_ID = "FAKECLIENTID";
+	private static String CLIENT_SECRET = "FAKESECRETKEY";
 	private static String VERSION = "20130815";
 
 	public static ResteasyWebTarget buildEndPoint(
