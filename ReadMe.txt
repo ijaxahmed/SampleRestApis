@@ -4,6 +4,16 @@ ReadME:
 
 A Raper REST web service for Foursquare and GoogleGeocoding API
 
+Prerequisites
+--------------
+In order to run the code Foursquare Authentication credentials required. Perform following step
+- Register with Foursquare and get CLIENT_ID and CLIENT _SECRET
+- update following fields in below class with your CLIENT _ID and CLIENT _SECRET 
+
+private static String CLIENT_ID = "FAKECLIENTID";
+private static String CLIENT_SECRET = "FAKESECRETKEY";
+/src/main/java/com/sample/rest/api/foursquare/connector/FoursquareResourceConnector.java
+
 
 RUN:
 --------------
@@ -15,7 +25,7 @@ RUN:
 Sample Test URLS
 -------------------
 Foursquare:
-http://localhost:8080/SampleRestApis/foursquare/vanue/uberall/ Chausseestraße/berlin
+http://localhost:8080/SampleRestApis/foursquare/vanue/uberall/ Chausseestraï¿½e/berlin
 http://localhost:8080/SampleRestApis/foursquare/vanue/Einstein/Friedrichstr/berlin
 http://localhost:8080/SampleRestApis/foursquare/vanue/K20%20Grabbeplatz/Grabbeplatz 5/dusseldorf
 http://localhost:8080/SampleRestApis/foursquare/vanue/DROM/ 85 Avenue A /New York
