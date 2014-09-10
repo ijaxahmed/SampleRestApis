@@ -2,7 +2,7 @@
 ReadME:
 ==========
 
-A Raper REST web service for Foursquare and GoogleGeocoding API
+A wrapper REST web service for Foursquare and GoogleGeocoding API
 
 Prerequisites
 --------------
